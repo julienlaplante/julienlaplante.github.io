@@ -30,6 +30,10 @@ module.exports = function (ctx) {
       'material-icons' // optional, you are not bound to it
     ],
 
+    sourceFiles: {
+      indexHtmlTemplate: 'src/index.html'
+    },
+
     // https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-framework
     framework: {
       // iconSet: 'ionicons-v4', // Quasar icon set
